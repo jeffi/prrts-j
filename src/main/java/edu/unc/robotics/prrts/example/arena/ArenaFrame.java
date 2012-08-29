@@ -48,6 +48,6 @@ public class ArenaFrame extends JFrame {
         Thread.currentThread().setPriority(Thread.MIN_PRIORITY);
         Thread.currentThread().getThreadGroup().setMaxPriority(Thread.MIN_PRIORITY);
 
-        rrtStar.runForDuration(4, 60000);
+        rrtStar.runForDuration(4, 6000);
     }
 }
